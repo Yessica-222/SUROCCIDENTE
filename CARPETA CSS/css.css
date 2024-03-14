@@ -1,0 +1,56 @@
+/* styles.css */
+
+/* ESTILO PAGINA PRINCIPAL */
+.nav-link {
+    color: white; /* Cambiar el color del texto a blanco */
+}
+.navbar-nav {
+    margin-left: auto; /* Alinea los enlaces "VALLE", "CAUCA" y "NARIÑO" a la derecha */
+    margin-right: 80px; /* Margen a la izquierda para separar los enlaces del borde derecho del navbar */
+}
+.navbar-nav .nav-item {
+    margin-right: 20px; /* Agrega un margen entre los elementos de la lista */
+}
+
+.content {
+    display: flex; /* Utiliza flexbox para controlar el diseño */
+
+}
+
+.image {
+    width: 50%; /* Ajusta el ancho de la imagen */
+}
+
+.title {
+    margin-bottom: 10px; /* Espacio entre el título y el texto */
+    font-size: 24px; /* Tamaño de fuente más pequeño */
+}
+
+.description {
+    max-width: 100%; /* Limita el ancho del texto para mejorar la legibilidad */
+}
+
+
+/* ESTILO FOOTER */
+.footer {
+    background-color: #f80505; /* Color de fondo rojo */
+    color: white; /* Color de texto blanco */
+    padding: 20px 0; /* Espaciado interno */
+    margin-top: 50px; /* Espaciado hacia abajo */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos verticalmente */
+    align-items: center; /* Alinea los elementos al centro */
+    justify-content: center; /* Centra los elementos verticalmente */
+    height: 100%; /* Establece la altura del contenedor */
+    margin: auto; /* Centra horizontalmente */
+    max-width: 600px; /* Limita el ancho del contenido */
+}
+
+.autor, .fecha, .materia {
+    margin: 10px 0; /* Espaciado entre los elementos */
+    text-align: center; /* Alinea el texto al centro */
+}
+
